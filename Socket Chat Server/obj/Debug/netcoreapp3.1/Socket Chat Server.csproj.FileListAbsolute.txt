@@ -1,0 +1,13 @@
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.exe
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.deps.json
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.runtimeconfig.json
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.runtimeconfig.dev.json
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.dll
+D:\Desktop\Socket Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.pdb
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.csprojAssemblyReference.cache
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.AssemblyInfoInputs.cache
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.AssemblyInfo.cs
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.csproj.CoreCompileInputs.cache
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.dll
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.pdb
+D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.genruntimeconfig.cache
