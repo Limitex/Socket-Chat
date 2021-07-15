@@ -66,6 +66,14 @@ namespace SocketComunication
                 }
                 private void Run()
                 {
+                    var startRecaive = sendAndReceive.Receive();
+                    var start = new SendData[2];
+                    start[0].ID = "usn";
+                    start[0].DATA = "Server";
+                    start[1].ID = "msg";
+                    start[1].DATA = "Welcome " + startRecaive.FindSendData("usn")[0];
+                    sendAndReceive.Send(start);
+
                     while (IsRunning)
                     {
                         SendData[] receiveData = sendAndReceive.Receive();
@@ -117,6 +125,11 @@ namespace SocketComunication
 
             public void Start(string userName)
             {
+                var start = new SendData[1];
+                start[0].ID = "usn";
+                start[0].DATA = userName;
+                sendAndReceive.Send(start);
+
                 ClientRunning = true;
                 var listen = new Thread(() => {
                     while (ClientRunning)
