@@ -30,7 +30,6 @@ namespace Socket_Chat_Client
                     }
                 }
 
-
             } while (!client.ConnectServer(ipHostInfo.AddressList[0], 11000));
 
 
