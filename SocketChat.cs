@@ -66,13 +66,22 @@ namespace SocketComunication
                 }
                 private void Run()
                 {
-                    var startRecaive = sendAndReceive.Receive();
-                    var start = new SendData[2];
-                    start[0].ID = "usn";
-                    start[0].DATA = "Server";
-                    start[1].ID = "msg";
-                    start[1].DATA = "Welcome " + startRecaive.FindSendData("usn")[0];
-                    sendAndReceive.Send(start);
+                    try
+                    {
+                        var startRecaive = sendAndReceive.Receive();
+                        var start = new SendData[2];
+                        start[0].ID = "usn";
+                        start[0].DATA = "Server";
+                        start[1].ID = "msg";
+                        start[1].DATA = "Welcome " + startRecaive.FindSendData("usn")[0];
+                        sendAndReceive.Send(start);
+                    }
+                    catch
+                    {
+                        Disconected();
+                        return;
+                    }
+
 
                     while (IsRunning)
                     {
