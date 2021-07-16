@@ -11,3 +11,16 @@ D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Se
 D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.dll
 D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.pdb
 D:\Desktop\Socket Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.genruntimeconfig.cache
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.exe
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.deps.json
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.runtimeconfig.json
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.runtimeconfig.dev.json
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.dll
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\bin\Debug\netcoreapp3.1\Socket Chat Server.pdb
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.csprojAssemblyReference.cache
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.AssemblyInfoInputs.cache
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.AssemblyInfo.cs
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.dll
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.pdb
+D:\Documents\GitHub\Socket-Chat\Socket Chat Server\obj\Debug\netcoreapp3.1\Socket Chat Server.genruntimeconfig.cache

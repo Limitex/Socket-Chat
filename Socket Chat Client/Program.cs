@@ -10,10 +10,30 @@ namespace Socket_Chat_Client
         {
             Console.WriteLine("Socket Chat Client");
 
-            IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ipAddress = ipHostInfo.AddressList[0];
+            var client = new SocketChat.Client();
 
-            var client = new SocketChat.Client(ipAddress, 11000);
+            IPHostEntry ipHostInfo;
+            do
+            {
+                while (true) 
+                { 
+
+                    Console.Write("Server IP : ");
+                    try
+                    {
+                        ipHostInfo = Dns.GetHostEntry(Console.ReadLine());
+                        break;
+                    }
+                    catch
+                    {
+                        Console.WriteLine("Wrong IP");
+                    }
+                }
+
+
+            } while (!client.ConnectServer(ipHostInfo.AddressList[0], 11000));
+
+
             Console.Write("User Name : ");
             client.Start(Console.ReadLine());
         }

@@ -105,7 +105,7 @@ namespace SocketComunication
 
             private SendAndReceive sendAndReceive;
 
-            public Client(IPAddress ipAddress, int port)
+            public bool ConnectServer(IPAddress ipAddress, int port)
             {
                 IPEndPoint localEndPoint = new IPEndPoint(ipAddress, port);
 
@@ -117,10 +117,11 @@ namespace SocketComunication
                 catch
                 {
                     Console.WriteLine("Server is not found");
-                    return;
+                    return false;
                 }
                 sendAndReceive = new SendAndReceive(MainListener);
                 Console.WriteLine("Conected.");
+                return true;
             }
 
             public void Start(string userName)
